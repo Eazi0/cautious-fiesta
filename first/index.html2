@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First assignment</title>
+</head>
+<body>
+    <header>
+        <h1>:From Challenges to Grow my-3th: My AltSchool Adventure</h1>
+      </header>
+    
+      <header>
+        <h1 class="stylesheet">Apllication form</h1>
+        <p>
+          fill in your form
+        </p>
+      </header>
+      <main>
+     <fieldset>
+       <form action="signup" method="post">
+          <p>
+              <label>First name*</label><br>
+            <input type="text" name="First Name" placeholder="first name">
+          </p>
+          <p>
+            <label>Last Name* </label><br>
+             <input type="text" name="last Name" id="last name" placeholder="last name">
+          </p>
+        <p>
+          <label>Gender*</label><br>
+         <select>
+          <option>male</option>
+          <option>female</option>
+         </select>
+        </p>
+        <p>
+          <lable>Date of Birth*</lable><br>
+          <input type="date" name="date of birth" id>
+        </p>
+        <p>
+          <label>Email Adresss*</label><br>
+          <input type="email" name="email" id="requird" placeholder="Enter email address"/>
+        </p>
+        <p>
+          <label>Education Level*</label><br>
+          <select>
+            <option>BSC</option>
+            <option>MASTERS </option>
+            <option>Phd</option>
+            <option>University</option>
+            <option>High school/secondary school</option>
+            <option>Bachelor Degree</option>
+            <option>Under Graduate</option>
+            <option>Post Gradutae</option>
+          </select>
+        </p>
+        <p>
+          <label>Contry*</label><br>
+          <select>
+            <option>united states</option>
+            <option>united kingdom</option>
+            <option>Nigeria</option>
+            <option>brazil</option>
+            <option>Ghana</option>
+            <option>Kenya</option>
+            <option>South africa</option>
+          </select>
+          <p>
+            <label>State/City of Residence*</label><br>
+            <select>
+              <option>lagos</option>
+              <option>ogun</option>
+              <option>abuja</option>
+              <option>enugu</option>
+              <option>delta</option>
+              <option>osun</option>
+            </select>
+          </p>
+          <p>
+            <label>Employment Status*</label><br>
+            <select>
+              <option>Self employed</option>
+              <option>employed</option>
+              <option>unemployed</option>
+            </select>
+          </p>
+          <p>
+            <label>Phone number</label><br>
+            <input type="tel" name="phone number" placeholder="enter phone number ">
+          </p>
+        </p>
+          <p>
+            <label>
+              <input type="checkbox" value="terms">
+               By clicking continue,I agree to <a href="terms">Terms of use</a> and acknowlege i have read the <a href="privacy">Private Policy</a>
+            </label>
+          </p>
+        <p>
+         <button>Sign up</button>
+         <button  type="reset">Reset form</button>
+        </p>
+        <label>
+          <b>Already have an account? <a href="sign in">sign in</a> </b>
+        </label>
+        </fieldset>
+         </form>
+      </main>
+    <iframe src="HTML" frameborder="0"></iframe>
+</body>
+</html>
